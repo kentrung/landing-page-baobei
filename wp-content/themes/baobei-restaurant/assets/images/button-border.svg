@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="184px" height="70px" viewBox="0 0 184 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="261.237957%" y1="29.7647888%" x2="-118.407644%" y2="67.3005782%" id="linearGradient-1">
+            <stop stop-color="#B79660" offset="0.044477%"></stop>
+            <stop stop-color="#D8B171" offset="20.88%"></stop>
+            <stop stop-color="#F8C981" offset="51.66%"></stop>
+            <stop stop-color="#9E794B" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="6" width="176" height="50"></rect>
+        <filter x="-4.0%" y="-10.0%" width="108.0%" height="128.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="261.237957%" y1="14.1665394%" x2="-118.407644%" y2="80.6366749%" id="linearGradient-4">
+            <stop stop-color="#B79660" offset="0.044477%"></stop>
+            <stop stop-color="#D8B171" offset="20.88%"></stop>
+            <stop stop-color="#F8C981" offset="51.66%"></stop>
+            <stop stop-color="#9E794B" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="6" y="0" width="164" height="62"></rect>
+        <filter x="-4.3%" y="-8.1%" width="108.5%" height="122.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-8" transform="translate(-36.000000, -689.000000)">
+            <g id="Group-4" transform="translate(40.000000, 691.000000)">
+                <g id="Rectangle-Copy-17">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <rect stroke="url(#linearGradient-1)" stroke-width="1" stroke-linejoin="square" x="0.5" y="6.5" width="175" height="49"></rect>
+                </g>
+                <g id="Rectangle-Copy-17">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <rect stroke="url(#linearGradient-4)" stroke-width="1" stroke-linejoin="square" x="6.5" y="0.5" width="163" height="61"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
